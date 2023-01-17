@@ -34,9 +34,3 @@ Format is the following:
 
 Then, you can run the `opcua_exporter.py`. 
 
-
-## Run as a Service
-
-Todo: Describe how to Run as a Service
-
-
