@@ -1,0 +1,131 @@
+NodeId.Identifier;DisplayName;Description;Remark;Prometheus Metric Name
+;;;;
+"ns=2;s=0:N18/DC1/OUT_D.CV";N18/OUT_D;Steuersignal N18;readable;n18_control_signal
+"ns=2;s=0:N18/DC1/OUT_F.CV";N18/OUT_F;Sollwert N18;" ""The variable should receive its value from another variable, but has never been configured to do so.(BadNotConnected)""";n18_set_value
+"ns=2;s=0:N18/AI1/OUT.CV";N18/AI1/OUT;Istwert N18;" ""The node id refers to a node that does not exist in the server address space.""(BadNodeIdUnknown)""";n18_current_value
+;;;;
+;;;;
+"ns=2;s=0:L10/PV/PV.CV";L10/CV;IstWert L10;readable;l10_current_value
+"ns=2;s=0:L10/PV/HI_ACT.CV";L10/HI_ACT;HI Alarm L10;readable;l10_alarm_high
+"ns=2;s=0:L10/PV/HI_HI_ACT.CV";L10/HI_HI_ACT;HI_HI Alarm L10;readable;l10_alarm_high_high
+"ns=2;s=0:L10/PV/LO_ACT.CV";L10/LO_ACT;LO Alarm L10;readable;l10_alarm_low
+"ns=2;s=0:L10/PV/LO_LO_ACT.CV";L10/LO_LO_ACT;LO_LO Alarm L10;readable;l10_alarm_low_low
+;;;;
+"ns=2;s=0:N13/DC1/OUT_D.CV";N13/OUT_D;Steuersignal N13;readable;n13_control_signal
+;;;;
+"ns=2;s=0:P19/PV/PV.CV";P19/CV;IstWert P19;readable;p19_current_value
+"ns=2;s=0:P19/PV/HI_ACT.CV";P19/HI_ACT;HI Alarm P19;readable;p19_alarm_high
+"ns=2;s=0:P19/PV/HI_HI_ACT.CV";P19/HI_HI_ACT;HI_HI Alarm P19;readable;p19_alarm_high_high
+"ns=2;s=0:P19/PV/LO_ACT.CV";P19/LO_ACT;LO Alarm P19;readable;p19_alarm_low
+"ns=2;s=0:P19/PV/LO_LO_ACT.CV";P19/LO_LO_ACT;LO_LO Alarm P19;readable;p19_alarm_low_low
+;;;;
+"ns=2;s=0:P14/PV/PV.CV";P14/CV;IstWert P14;readable;p14_current_value
+"ns=2;s=0:P14/PV/HI_ACT.CV";P14/HI_ACT;HI Alarm P14;readable;p14_alarm_high
+"ns=2;s=0:P14/PV/HI_HI_ACT.CV";P14/HI_HI_ACT;HI_HI Alarm P14;readable;p14_alarm_high_high
+"ns=2;s=0:P14/PV/LO_ACT.CV";P14/LO_ACT;LO Alarm P14;readable;p14_alarm_low
+"ns=2;s=0:P14/PV/LO_LO_ACT.CV";P14/LO_LO_ACT;LO_LO Alarm P14;readable;p14_alarm_low_low
+;;;;
+"ns=2;s=0:T15/PV/PV.CV";T15/CV;IstWert T15;readable;t15_current_value
+"ns=2;s=0:T15/PV/HI_ACT.CV";T15/HI_ACT;HI Alarm T15;readable;t15_alarm_high
+"ns=2;s=0:T15/PV/HI_HI_ACT.CV";T15/HI_HI_ACT;HI_HI Alarm T15;readable;t15_alarm_high_high
+"ns=2;s=0:T15/PV/LO_ACT.CV";T15/LO_ACT;LO Alarm T15;readable;t15_alarm_low
+"ns=2;s=0:T15/PV/LO_LO_ACT.CV";T15/LO_LO_ACT;LO_LO Alarm T15;readable;t15_alarm_low_low
+;;;;
+"ns=2;s=0:T20/PV/PV.CV";T20/CV;IstWert T20;readable;t20_current_value
+"ns=2;s=0:T20/PV/HI_ACT.CV";T20/HI_ACT;HI Alarm T20;readable;t20_alarm_high
+"ns=2;s=0:T20/PV/HI_HI_ACT.CV";T20/HI_HI_ACT;HI_HI Alarm T20;readable;t20_alarm_high_high
+"ns=2;s=0:T20/PV/LO_ACT.CV";T20/LO_ACT;LO Alarm T20;readable;t20_alarm_low
+"ns=2;s=0:T20/PV/LO_LO_ACT.CV";T20/LO_LO_ACT;LO_LO Alarm T20;readable;t20_alarm_low_low
+;;;;
+"ns=2;s=0:Y16/AI1/OUT.CV";Y16/AI1/OUT.CV;IstWert Y16;readable;y16_current_value
+"ns=2;s=0:Y16/DC1/OUT_F.CV";Y16/DC1/OUT_F.CV;Sollwert Y16;readable;y16_set_value
+;;;;
+"ns=2;s=0:Y21/AI1/OUT.CV";Y21/AI1/OUT.CV;IstWert Y21;readable;y21_current_value
+"ns=2;s=0:Y21/DC1/OUT_F.CV";Y21/DC1/OUT_F.CV;Sollwert Y21;readable;y21_set_value
+;;;;
+"ns=2;s=0:F17/PV/PV.CV";F17/CV;IstWert F17;readable;f17_current_value
+"ns=2;s=0:F17/PV/HI_ACT.CV";F17/HI_ACT;HI Alarm F17;readable;f17_alarm_high
+"ns=2;s=0:F17/PV/HI_HI_ACT.CV";F17/HI_HI_ACT;HI_HI Alarm F17;readable;f17_alarm_high_high
+"ns=2;s=0:F17/PV/LO_ACT.CV";F17/LO_ACT;LO Alarm F17;readable;f17_alarm_low
+"ns=2;s=0:F17/PV/LO_LO_ACT.CV";F17/LO_LO_ACT;LO_LO Alarm F17;readable;f17_alarm_low_low
+;;;;
+;;;;
+"ns=2;s=0:F22/PV/PV.CV";F22/CV;IstWert F22;readable;f22_current_value
+"ns=2;s=0:F22/PV/HI_ACT.CV";F22/HI_ACT;HI Alarm F22;readable;f22_alarm_high
+"ns=2;s=0:F22/PV/HI_HI_ACT.CV";F22/HI_HI_ACT;HI_HI Alarm F22;readable;f22_alarm_high_high
+"ns=2;s=0:F22/PV/LO_ACT.CV";F22/LO_ACT;LO Alarm F22;readable;f22_alarm_low
+"ns=2;s=0:F22/PV/LO_LO_ACT.CV";F22/LO_LO_ACT;LO_LO Alarm F22;readable;f22_alarm_low_low
+;;;;
+;;;;
+"ns=2;s=0:T23/PV/PV.CV";T23/CV;IstWert T23;readable;t23_current_value
+"ns=2;s=0:T23/PV/HI_ACT.CV";T23/HI_ACT;HI Alarm T23;readable;t23_alarm_high
+"ns=2;s=0:T23/PV/HI_HI_ACT.CV";T23/HI_HI_ACT;HI_HI Alarm T23;readable;t23_alarm_high_high
+"ns=2;s=0:T23/PV/LO_ACT.CV";T23/LO_ACT;LO Alarm T23;readable;t23_alarm_low
+"ns=2;s=0:T23/PV/LO_LO_ACT.CV";T23/LO_LO_ACT;LO_LO Alarm T23;readable;t23_alarm_low_low
+;;;;
+"ns=2;s=0:Y24/DC1/OUT_D.CV";Y24/OUT_F;Steuersignal Y24;readable;y24_control_signal
+;;;;
+"ns=2;s=0:Y25/DC1/OUT_D.CV";Y25/OUT_F;Steuersignal Y25;readable;y25_control_signal
+;;;;
+"ns=2;s=0:L26/PV/PV.CV";L26/CV;IstWert L26;readable;l26_current_value
+"ns=2;s=0:L26/PV/HI_ACT.CV";L26/HI_ACT;HI Alarm L26;readable;l26_alarm_high
+"ns=2;s=0:L26/PV/HI_HI_ACT.CV";L26/HI_HI_ACT;HI_HI Alarm L26;readable;l26_alarm_high_high
+"ns=2;s=0:L26/PV/LO_ACT.CV";L26/LO_ACT;LO Alarm L26;readable;l26_alarm_low
+"ns=2;s=0:L26/PV/LO_LO_ACT.CV";L26/LO_LO_ACT;LO_LO Alarm L26;readable;l26_alarm_low_low
+;;;;
+"ns=2;s=0:L34/PV/PV.CV";L34/CV;IstWert L34;readable;l34_current_value
+"ns=2;s=0:L34/PV/HI_ACT.CV";L34/HI_ACT;HI Alarm L34;readable;l34_alarm_high
+"ns=2;s=0:L34/PV/HI_HI_ACT.CV";L34/HI_HI_ACT;HI_HI Alarm L34;readable;l34_alarm_high_high
+"ns=2;s=0:L34/PV/LO_ACT.CV";L34/LO_ACT;LO Alarm L34;readable;l34_alarm_low
+"ns=2;s=0:L34/PV/LO_LO_ACT.CV";L34/LO_LO_ACT;LO_LO Alarm L34;readable;l34_alarm_low_low
+;;;;
+"ns=2;s=0:L35/PV/PV.CV";L35/CV;IstWert L35;readable;l35_current_value
+"ns=2;s=0:L35/PV/HI_ACT.CV";L35/HI_ACT;HI Alarm L35;readable;l35_alarm_high
+"ns=2;s=0:L35/PV/HI_HI_ACT.CV";L35/HI_HI_ACT;HI_HI Alarm L35;readable;l35_alarm_high_high
+"ns=2;s=0:L35/PV/LO_ACT.CV";L35/LO_ACT;LO Alarm L35;readable;l35_alarm_low
+"ns=2;s=0:L35/PV/LO_LO_ACT.CV";L35/LO_LO_ACT;LO_LO Alarm L35;readable;l35_alarm_low_low
+;;;;
+"ns=2;s=0:T27/PV/PV.CV";T27/CV;IstWert T27;readable;t27_current_value
+"ns=2;s=0:T27/PV/HI_ACT.CV";T27/HI_ACT;HI Alarm T27;readable;t27_alarm_high
+"ns=2;s=0:T27/PV/HI_HI_ACT.CV";T27/HI_HI_ACT;HI_HI Alarm T27;readable;t27_alarm_high_high
+"ns=2;s=0:T27/PV/LO_ACT.CV";T27/LO_ACT;LO Alarm T27;readable;t27_alarm_low
+"ns=2;s=0:T27/PV/LO_LO_ACT.CV";T27/LO_LO_ACT;LO_LO Alarm T27;readable;t27_alarm_low_low
+;;;;
+"ns=2;s=0:T33/PV/PV.CV";T33/CV;IstWert T33;readable;t33_current_value
+"ns=2;s=0:T33/PV/HI_ACT.CV";T33/HI_ACT;HI Alarm T33;readable;t33_alarm_high
+"ns=2;s=0:T33/PV/HI_HI_ACT.CV";T33/HI_HI_ACT;HI_HI Alarm T33;readable;t33_alarm_high_high
+"ns=2;s=0:T33/PV/LO_ACT.CV";T33/LO_ACT;LO Alarm T33;readable;t33_alarm_low
+"ns=2;s=0:T33/PV/LO_LO_ACT.CV";T33/LO_LO_ACT;LO_LO Alarm T33;readable;t33_alarm_low_low
+;;;;
+"ns=2;s=0:Q28/PV/PV.CV";Q28/CV;IstWert Q28;readable;q28_current_value
+"ns=2;s=0:Q28/PV/HI_ACT.CV";Q28/HI_ACT;HI Alarm Q28;readable;q28_alarm_high
+"ns=2;s=0:Q28/PV/HI_HI_ACT.CV";Q28/HI_HI_ACT;HI_HI Alarm Q28;readable;q28_alarm_high_high
+"ns=2;s=0:Q28/PV/LO_ACT.CV";Q28/LO_ACT;LO Alarm Q28;readable;q28_alarm_low
+"ns=2;s=0:Q28/PV/LO_LO_ACT.CV";Q28/LO_LO_ACT;LO_LO Alarm Q28;readable;q28_alarm_low_low
+;;;;
+"ns=2;s=0:N29/DC1/OUT_D.CV";N29/OUT_D;Steuersignal N29;readable;n29_control_signal
+;;;;
+"ns=2;s=0:Y30/AI1/OUT.CV";Y30/AI1/OUT.CV;IstWert Y30;readable;y30_current_value
+"ns=2;s=0:Y30/DC1/OUT_F.CV";Y30/DC1/OUT_F.CV;" Sollwert Y30 ""The variable should receive its value from another variable, but has never been configured to do so.(BadNotConnected)""";;y30_set_point
+;;;;
+"ns=2;s=0:F31/PV/PV.CV";F31/CV;IstWert F31;readable;f31_current_value
+"ns=2;s=0:F31/PV/HI_ACT.CV";F31/HI_ACT;HI Alarm F31;readable;f31_alarm_high
+"ns=2;s=0:F31/PV/HI_HI_ACT.CV";F31/HI_HI_ACT;HI_HI Alarm F31;readable;f31__alarm_high_high
+"ns=2;s=0:F31/PV/LO_ACT.CV";F31/LO_ACT;LO Alarm F31;readable;f31_alarm_low
+"ns=2;s=0:F31/PV/LO_LO_ACT.CV";F31/LO_LO_ACT;LO_LO Alarm F31;readable;f31_alarm_low_low
+;;;;
+"ns=2;s=0:N36/DO1/OUT_D.CV";N36/OUT_D;Steuersignal N36;readable;n36_control_signal
+;;;;
+"ns=2;s=0:N38/DO1/OUT_D.CV";N38/OUT_D;Steuersignal N38;readable;n38_control_signal
+;;;;
+"ns=2;s=0:Y37/AI1/OUT.CV";Y37/AI1/OUT.CV;IstWert Y37;readable;y37_current_value
+"ns=2;s=0:Y37/DC1/OUT_F.CV";Y37/DC1/ON/OUT.CV;Sollwert Y37;readable;y37_set_point
+;;;;
+"ns=2;s=0:Y39/AI1/OUT.CV";Y39/AI1/OUT.CV;IstWert Y39;readable;y39_current_value
+"ns=2;s=0:Y39/DC1/OUT_F.CV";Y39/DC1/OUT_F.CV;Sollwert Y39;" ""The variable should receive its value from another variable, but has never been configured to do so.(BadNotConnected)""";y39_set_point
+;;;;
+"ns=2;s=0:F40/PV/PV.CV";F40/CV;IstWert F40;readable;f40_current_value
+"ns=2;s=0:F40/PV/HI_ACT.CV";F40/HI_ACT;HI Alarm F40;readable;f40_alarm_high
+"ns=2;s=0:F40/PV/HI_HI_ACT.CV";F40/HI_HI_ACT;HI_HI Alarm F40;readable;f40_alarm_high_high
+"ns=2;s=0:F40/PV/LO_ACT.CV";F40/LO_ACT;LO Alarm F40;readable;f40_alarm_low
+"ns=2;s=0:F40/PV/LO_LO_ACT.CV";F40/LO_LO_ACT;LO_LO Alarm F40;readable;f40_alarm_low_low

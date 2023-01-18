@@ -4,6 +4,7 @@ import sys
 import time
 from typing import List
 import dataclasses
+import csv
 
 import opcua
 import prometheus_client
@@ -37,10 +38,15 @@ class OPCUAGauge:
 # Read in the nodes
 GAUGES: List[OPCUAGauge] = []
 with open(NODE_CONFIG_FILE, "r") as file:
-    data = file.read().strip("\n").split("\n")
-    del data[0]  # Remove the first line of the file
-    for line in data:
-        node_path, metric_name, documentation = line.split(",")
+    reader = csv.DictReader(file, delimiter=";")
+    for row in reader:
+        if row["NodeId.Identifier"] == "":
+            continue  # Skip empty lines
+        node_path: str = row["NodeId.Identifier"]
+        display_name: str = row["DisplayName"]
+        description: str = row["Description"]
+        metric_name: str = row["Prometheus Metric Name"]
+        documentation: str = f"{node_path} - {description}"
         GAUGES.append(OPCUAGauge(metric_name, node_path, prometheus_client.Gauge(metric_name, documentation)))
 
 
@@ -70,6 +76,9 @@ def update_all_metrics():
 
 
 if __name__ == '__main__':
+    print("Found the following gauges:")
+    for gauge in GAUGES:
+        print(gauge)
     prometheus_client.start_http_server(SERVER_PORT)
     while True:
         print("Updating Nodes")
